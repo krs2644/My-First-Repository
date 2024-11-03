@@ -10,13 +10,13 @@ if (p == NULL){\
 void main()
 {
 	int *p1, *p2;
-	int sum;
+	int prod;
 	MALLOC (p1,1,int);
 	MALLOC (p2,1,int);
 	printf("%d\n",p1);
 	printf("%d\n",p2);
 	*p1 = 10;
 	*p2 = 20;
-	sum= *p1 + *p2;
-	printf("\n%d + %d = %d\n",*p1,*p2,sum);
+	prod= *p1 * *p2;
+	printf("\n%d * %d = %d\n",*p1,*p2,sum);
 }
